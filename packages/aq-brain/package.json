@@ -1,0 +1,29 @@
+{
+  "name": "aq-brain",
+  "version": "0.1.0",
+  "description": "Persistent memory for AI agents. Remember, recall, search, forget, decay — the organ that lets agents learn over time.",
+  "main": "src/index.js",
+  "keywords": [
+    "ai-agent",
+    "agent-memory",
+    "ai-memory",
+    "context-recall",
+    "knowledge-base",
+    "agent-learning",
+    "aqthevision",
+    "fitrah-model"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq-brain"
+  },
+  "homepage": "https://aqthevision.ai/brain",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/"
+  ]
+}

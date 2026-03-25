@@ -1,0 +1,31 @@
+{
+  "name": "create-aq",
+  "version": "0.1.0",
+  "description": "Create a governed AI agent in 30 seconds. Interactive wizard — pick your soul, your laws, your model.",
+  "bin": {
+    "create-aq": "./bin/create-aq.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "agent-framework",
+    "ai-governance",
+    "scaffolding",
+    "cli",
+    "aqthevision",
+    "create-aq"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq"
+  },
+  "homepage": "https://aqthevision.ai",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "templates/"
+  ]
+}

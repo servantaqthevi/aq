@@ -1,0 +1,22 @@
+{
+  "name": "aq-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Biological governance for AI agents",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "node --test packages/aq/test/*.test.js packages/aq-soul/test/*.test.js packages/aq-guardian/test/*.test.js packages/aq-sacred-laws/test/*.test.js packages/aq-brain/test/*.test.js packages/aq-nerve/test/*.test.js packages/aq-mirror/test/*.test.js packages/aq-voice/test/*.test.js",
+    "test:all": "npm test"
+  },
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/servantaqthevi/aq.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

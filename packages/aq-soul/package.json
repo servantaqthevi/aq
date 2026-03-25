@@ -1,0 +1,33 @@
+{
+  "name": "aq-soul",
+  "version": "0.1.0",
+  "description": "Give your AI agent a conscience. Values, refusals, personality, and enforcement — the organ that makes agents trustworthy.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "keywords": [
+    "ai-agent",
+    "agent-soul",
+    "agent-conscience",
+    "ai-ethics",
+    "ai-governance",
+    "ai-safety",
+    "agent-values",
+    "guardrails",
+    "aqthevision",
+    "fitrah-model"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq-soul"
+  },
+  "homepage": "https://aqthevision.ai/soul",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "templates/"
+  ]
+}

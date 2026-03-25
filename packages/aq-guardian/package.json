@@ -1,0 +1,32 @@
+{
+  "name": "aq-guardian",
+  "version": "0.1.0",
+  "description": "Safety and ethics layer for AI agents. Response guarding, vulnerability detection, emergency handling, and honest uncertainty — the organ that protects humans.",
+  "main": "src/index.js",
+  "keywords": [
+    "ai-agent",
+    "ai-safety",
+    "guardrails",
+    "ai-ethics",
+    "vulnerability-detection",
+    "content-moderation",
+    "agent-safety",
+    "openguardrails",
+    "aqthevision",
+    "fitrah-model"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq-guardian"
+  },
+  "homepage": "https://aqthevision.ai/guardian",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "presets/"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "aq-mirror",
+  "version": "0.1.0",
+  "description": "Self-assessment and confidence scoring for AI agents. Quality checking, uncertainty detection, escalation decisions — the organ that knows what it doesn't know.",
+  "main": "src/index.js",
+  "keywords": [
+    "ai-agent",
+    "confidence-scoring",
+    "self-assessment",
+    "quality-check",
+    "agent-reflection",
+    "ai-safety",
+    "aqthevision",
+    "fitrah-model"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq-mirror"
+  },
+  "homepage": "https://aqthevision.ai/mirror",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/"
+  ]
+}

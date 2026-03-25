@@ -1,0 +1,32 @@
+{
+  "name": "aq-router",
+  "version": "0.1.0",
+  "description": "Multi-model AI routing engine. 7 providers, cost-optimized, model-agnostic intelligence — the organ that picks the right brain for the job.",
+  "main": "src/index.js",
+  "keywords": [
+    "ai-agent",
+    "ai-router",
+    "model-routing",
+    "multi-model",
+    "cost-optimization",
+    "claude",
+    "openai",
+    "deepseek",
+    "gemini",
+    "aqthevision",
+    "fitrah-model"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq-router"
+  },
+  "homepage": "https://aqthevision.ai/router",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/"
+  ]
+}

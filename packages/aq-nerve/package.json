@@ -1,0 +1,30 @@
+{
+  "name": "aq-nerve",
+  "version": "0.1.0",
+  "description": "Real-time signal detection for AI agents. Pattern matching, emergency reflexes, severity routing — the organ that senses danger.",
+  "main": "src/index.js",
+  "keywords": [
+    "ai-agent",
+    "pattern-detection",
+    "signal-processing",
+    "emergency-detection",
+    "agent-reflexes",
+    "ai-safety",
+    "aqthevision",
+    "fitrah-model"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq-nerve"
+  },
+  "homepage": "https://aqthevision.ai/nerve",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "presets/"
+  ]
+}

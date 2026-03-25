@@ -1,0 +1,56 @@
+{
+  "name": "aq-bio-wrap",
+  "version": "0.1.0",
+  "description": "The biological wrapper that combines all organs into a living AI agent. Soul + Guardian + Brain + Nerve + Mirror + Voice — assembled.",
+  "main": "src/index.js",
+  "keywords": [
+    "ai-agent",
+    "agent-framework",
+    "biological-architecture",
+    "agent-wrapper",
+    "ai-orchestration",
+    "aqthevision",
+    "fitrah-model"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq-bio-wrap"
+  },
+  "homepage": "https://aqthevision.ai/bio-wrap",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "@aqthevisionnow/brain": ">=0.1.0",
+    "@aqthevisionnow/guardian": ">=0.1.0",
+    "@aqthevisionnow/mirror": ">=0.1.0",
+    "@aqthevisionnow/nerve": ">=0.1.0",
+    "@aqthevisionnow/soul": ">=0.1.0",
+    "@aqthevisionnow/voice": ">=0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@aqthevisionnow/soul": {
+      "optional": false
+    },
+    "@aqthevisionnow/guardian": {
+      "optional": true
+    },
+    "@aqthevisionnow/brain": {
+      "optional": true
+    },
+    "@aqthevisionnow/nerve": {
+      "optional": true
+    },
+    "@aqthevisionnow/mirror": {
+      "optional": true
+    },
+    "@aqthevisionnow/voice": {
+      "optional": true
+    }
+  },
+  "files": [
+    "src/"
+  ]
+}

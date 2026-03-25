@@ -1,0 +1,35 @@
+{
+  "name": "aq-framework",
+  "version": "0.1.0",
+  "description": "Governed AI agents. Soul, Guardian, Brain, Nerve, Mirror, Voice, Router — the biological architecture that makes agents safe, ethical, and excellent.",
+  "main": "src/index.js",
+  "keywords": [
+    "ai-agent",
+    "agent-framework",
+    "ai-governance",
+    "ai-safety",
+    "ai-ethics",
+    "guardrails",
+    "agent-memory",
+    "multi-model",
+    "ai-router",
+    "biological-architecture",
+    "aqthevision"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq"
+  },
+  "homepage": "https://aqthevision.ai",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "test": "node --test test/aq.test.js"
+  }
+}

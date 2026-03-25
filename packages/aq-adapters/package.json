@@ -1,0 +1,48 @@
+{
+  "name": "aq-adapters",
+  "version": "0.1.0",
+  "description": "Drop-in governance adapters for LangChain.js, Vercel AI SDK, OpenAI Agents, and any agent framework. One import, governed agents.",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./langchain": "./src/langchain.js",
+    "./vercel-ai": "./src/vercel-ai.js",
+    "./openai": "./src/openai.js",
+    "./generic": "./src/generic.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "ai-governance",
+    "ai-safety",
+    "guardrails",
+    "langchain",
+    "vercel-ai",
+    "openai",
+    "agent-adapter",
+    "aqthevision"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq"
+  },
+  "homepage": "https://aqthevision.ai",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "aq-guardian": ">=0.1.0",
+    "aq-soul": ">=0.1.0",
+    "aq-nerve": ">=0.1.0",
+    "aq-mirror": ">=0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "aq-soul": { "optional": true },
+    "aq-nerve": { "optional": true },
+    "aq-mirror": { "optional": true }
+  },
+  "files": [
+    "src/"
+  ]
+}
