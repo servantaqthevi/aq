@@ -6,3 +6,7 @@ node_modules/
 Thumbs.db
 coverage/
 .nyc_output/
+
+# secret hygiene - appended by laptop audit 2026-09-07
+*.pem
+*.key
