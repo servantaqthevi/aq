@@ -5,24 +5,24 @@ const { callProvider } = require('./providers');
 const { calculateCost } = require('./cost');
 
 const DEFAULT_ROUTES = {
-  agent_response:       { model: 'claude-sonnet-4-20250514',    provider: 'claude' },
-  prompt_writing:       { model: 'claude-opus-4-20250514',      provider: 'claude' },
+  agent_response:       { model: 'claude-opus-5',               provider: 'claude' },
+  prompt_writing:       { model: 'claude-fable-5',              provider: 'claude' },
   content_bulk:         { model: 'deepseek-chat',               provider: 'deepseek' },
   content_multilingual: { model: 'qwen-plus',                   provider: 'qwen' },
   content_overflow:     { model: 'qwen-plus',                   provider: 'qwen' },
   heavy_testing:        { model: 'deepseek-reasoner',           provider: 'deepseek' },
-  simple_template:      { model: 'claude-haiku-4-5-20251001',   provider: 'claude' },
+  simple_template:      { model: 'claude-sonnet-4-20250514',    provider: 'claude' },
   image_quality:        { model: 'gemini-2.5-pro',              provider: 'google' },
   image_speed:          { model: 'gemini-2.5-flash',            provider: 'google' },
-  copy_quality:         { model: 'claude-sonnet-4-20250514',    provider: 'claude' },
+  copy_quality:         { model: 'claude-opus-5',               provider: 'claude' },
   copy_bulk:            { model: 'deepseek-chat',               provider: 'deepseek' },
   copy_multilingual:    { model: 'qwen-plus',                   provider: 'qwen' },
-  video_script:         { model: 'claude-sonnet-4-20250514',    provider: 'claude' },
+  video_script:         { model: 'claude-opus-5',               provider: 'claude' },
   graphic_prompt:       { model: 'gemini-2.5-flash',            provider: 'google' },
   audio_script:         { model: 'claude-haiku-4-5-20251001',   provider: 'claude' },
-  campaign_strategy:    { model: 'claude-sonnet-4-20250514',    provider: 'claude' },
+  campaign_strategy:    { model: 'claude-fable-5',              provider: 'claude' },
   content_calendar:     { model: 'deepseek-chat',               provider: 'deepseek' },
-  content_review:       { model: 'claude-sonnet-4-20250514',    provider: 'claude' },
+  content_review:       { model: 'claude-fable-5',              provider: 'claude' },
   general_chat:         { model: 'gpt-4o-mini',                 provider: 'openai' },
   reasoning:            { model: 'grok-3-mini',                 provider: 'grok' },
   web_research:         { model: 'sonar',                       provider: 'perplexity' },
@@ -35,7 +35,7 @@ const DEFAULT_ROUTES = {
  * @param {Object} [options.routes] - Custom routing table (merged with defaults)
  * @param {Object} [options.keys] - API keys: { claude, deepseek, qwen, google, openai, grok, perplexity }
  * @param {string} [options.fallbackProvider='claude'] - Provider to fall back to on errors
- * @param {string} [options.fallbackModel='claude-sonnet-4-20250514'] - Model to fall back to
+ * @param {string} [options.fallbackModel='claude-opus-5'] - Model to fall back to
  * @param {Function} [options.onRoute] - Callback for each route: (result) => void
  * @param {Function} [options.onError] - Callback for errors: (error, taskType) => void
  * @returns {Object} Router with route(), addRoute(), getHealth() methods
@@ -45,7 +45,7 @@ function createRouter(options = {}) {
     routes: customRoutes = {},
     keys = {},
     fallbackProvider = 'claude',
-    fallbackModel = 'claude-sonnet-4-20250514',
+    fallbackModel = 'claude-opus-5',
     onRoute = null,
     onError = null
   } = options;

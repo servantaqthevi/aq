@@ -1,0 +1,29 @@
+{
+  "name": "@aqthevisionnow/pulse",
+  "version": "0.1.0",
+  "description": "The heartbeat organ. A living AI agent takes its own vitals on every beat and continuously proves itself through verified trials — claims never count, only evidence does.",
+  "main": "src/index.js",
+  "keywords": [
+    "ai-agent",
+    "agent-framework",
+    "biological-architecture",
+    "self-verification",
+    "track-record",
+    "hash-chain",
+    "aqthevision",
+    "fitrah-model"
+  ],
+  "author": "AQTheVision <hello@aqthevision.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqthevision/aq.git"
+  },
+  "homepage": "https://aqthevision.ai/pulse",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/"
+  ]
+}

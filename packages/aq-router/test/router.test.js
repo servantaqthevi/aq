@@ -48,8 +48,9 @@ describe('@aq/router — calculateCost', () => {
 
 describe('@aq/router — COST_PER_MILLION', () => {
   it('has rates for all major models', () => {
+    assert.ok(COST_PER_MILLION['claude-fable-5']);
+    assert.ok(COST_PER_MILLION['claude-opus-5']);
     assert.ok(COST_PER_MILLION['claude-sonnet-4-20250514']);
-    assert.ok(COST_PER_MILLION['claude-opus-4-20250514']);
     assert.ok(COST_PER_MILLION['claude-haiku-4-5-20251001']);
     assert.ok(COST_PER_MILLION['deepseek-chat']);
     assert.ok(COST_PER_MILLION['gemini-2.5-pro']);
